@@ -4,10 +4,10 @@ const ReferencesSection = () => {
   return (
     <section
       id="references"
-      className="px-6 md:px-12 lg:px-20 py-20 bg-stone-50 text-center "
+      className="px-6 md:px-12 lg:px-20 py-16 sm:py-24 bg-stone-50 text-center "
     >
-      <div className=" max-w-7xl mx-auto">
-        <h2 className="text-4xl font-bold text-cyan-700 mb-8 font-mono">
+      <div className="max-w-7xl mx-auto">
+        <h2 className="text-2xl sm:text-4xl font-bold text-cyan-700 mb-8 font-mono">
           References
         </h2>
 

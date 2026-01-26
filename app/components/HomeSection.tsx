@@ -17,15 +17,15 @@ const HomeSection = () => {
       <div className="max-w-7xl w-full flex flex-col-reverse lg:flex-row items-center gap-10 lg:gap-16">
         <div className="w-full lg:w-1/2">
           <motion.p
-            className="text-stone-600 font-semibold text-lg font-serif"
+            className="text-stone-600 font-semibold text-md sm:text-lg font-serif"
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.1 }}
           >
-            Hello, I&apos;m
+            Hello, I'm
           </motion.p>
           <motion.h1
-            className="mt-2 text-4xl md:text-5xl lg:text-5xl font-extrabold leading-tight"
+            className="mt-2 text-2xl sm:text-4xl md:text-5xl lg:text-5xl font-extrabold leading-tight"
             initial={{ opacity: 0, y: 12 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.2, ease: "easeOut" }}
@@ -49,7 +49,7 @@ const HomeSection = () => {
             initial={{ opacity: 0, x: -75 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
-            className="font-lato font-bold text-stone-400 text-2xl mt-1 font-serif"
+            className="font-lato font-bold text-stone-400 text-md sm:text-2xl mt-1 font-serif"
           >
             <Typewriter
               words={[
@@ -79,7 +79,7 @@ const HomeSection = () => {
           <div className="mt-10">
             <div className="mx-auto h-px max-w-4xl bg-stone-300" />
           </div>
-          <div className="flex flex-wrap gap-4 mt-5">
+          <div className="flex flex-wrap gap-4 mt-5 mb-16">
             <a
               href="mailto:afrahabualrob8@gmail.com"
               className="flex items-center gap-2 rounded-2xl bg-cyan-800 px-6 py-3 text-sm font-medium text-white transition hover:scale-105 hover:shadow-md font-sans"

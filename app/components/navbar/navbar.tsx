@@ -45,8 +45,8 @@ const Navbar = () => {
 
   return (
     <header className="sticky top-0 z-50 bg-stone-100 backdrop-blur-xl shadow-sm">
-      <div className="mx-auto flex max-w-7xl items-center justify-between py-4">
-        <div className="text-xl font-bold tracking-wide text-cyan-700">
+      <div className="mx-auto flex max-w-7xl items-center justify-between py-4 px-2 sm:px-0">
+        <div className="text-lg sm:text-xl font-bold tracking-wide text-cyan-700">
           Afrah<span className="text-stone-600"> Portfolio</span>
         </div>
         <nav className="hidden md:block">

@@ -9,9 +9,9 @@ import { experiencesList } from "../data/experiencesList";
 
 const ExperienceSection = () => {
   return (
-    <section id="experience" className="py-24 bg-stone-50">
+    <section id="experience" className="py-12 sm:py-24 bg-stone-50">
       <div className="max-w-7xl mx-auto px-6">
-        <h2 className="text-3xl md:text-4xl font-bold text-cyan-700 text-center mb-16 font-mono">
+        <h2 className="text-2xl sm:text-4xl font-bold text-cyan-700 text-center mb-8 sm:mb-16 font-mono">
           Experience
         </h2>
         <VerticalTimeline lineColor="#0e7490">
@@ -33,7 +33,7 @@ const ExperienceSection = () => {
               }}
               icon={exp.icon}
             >
-              <h3 className="text-xl font-bold text-cyan-700 font-mono">
+              <h3 className="text-md sm:text-xl font-bold text-cyan-700 font-mono">
                 {exp.title}
               </h3>
 

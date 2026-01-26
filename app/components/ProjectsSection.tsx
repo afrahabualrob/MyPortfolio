@@ -24,10 +24,13 @@ const ProjectsSection = () => {
   const allShown = visibleCount >= projectsList.length;
 
   return (
-    <section id="projects" className="px-6 md:px-12 lg:px-20 py-20 bg-white">
+    <section
+      id="projects"
+      className="px-6 md:px-12 lg:px-20 py-16 sm:py-24 bg-white"
+    >
       <div className="max-w-7xl mx-auto">
         <div className="mb-12 max-w-2xl mx-auto text-center">
-          <h2 className="text-4xl font-bold text-cyan-700 mb-3 font-mono">
+          <h2 className="text-2xl sm:text-4xl font-bold text-cyan-700 mb-3 font-mono">
             Projects
           </h2>
           <p className="text-lg font-medium text-gray-600">
@@ -37,7 +40,6 @@ const ProjectsSection = () => {
           </p>
         </div>
 
-        {/* Projects Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {projectsList.slice(0, visibleCount).map((project) => (
             <div

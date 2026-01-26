@@ -3,9 +3,9 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const AboutSection = () => {
   return (
-    <section id="about" className="px-6 md:px-12 lg:px-20 py-24  bg-stone-50">
+    <section id="about" className="px-6 md:px-12 lg:px-20 py-16 sm:py-24 bg-stone-50">
       <div className="max-w-7xl mx-auto text-center">
-        <h2 className="text-4xl font-bold text-cyan-700 mb-8 text-heading font-mono">
+        <h2 className="text-2xl sm:text-4xl font-bold text-cyan-700 mb-8 text-heading font-mono">
           About Me
         </h2>
         <div className="flex items-center justify-center">

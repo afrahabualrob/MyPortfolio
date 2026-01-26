@@ -4,10 +4,13 @@ import { FaLocationDot } from "react-icons/fa6";
 
 const ContactSection = () => {
   return (
-    <section id="contact" className="px-6 md:px-12 lg:px-20 py-20 bg-[#fff]">
+    <section
+      id="contact"
+      className="px-6 md:px-12 lg:px-20 py-12 sm:py-20 bg-white"
+    >
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12  max-w-7xl mx-auto">
         <div>
-          <h2 className="text-4xl font-bold text-cyan-700 mb-3 font-mono text-stone-400">
+          <h2 className="text-2xl sm:text-4xl font-bold text-cyan-700 mb-2 font-mono text-stone-400">
             Get in Touch
           </h2>
 
