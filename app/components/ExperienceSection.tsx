@@ -25,11 +25,11 @@ const ExperienceSection = () => {
                 boxShadow: "0 10px 25px rgba(0,0,0,0.08)",
               }}
               contentArrowStyle={{
-                borderRight: "10px solid #ffffff",
+                borderRight: "10px solid #fff",
               }}
               iconStyle={{
                 background: "#a6a09b",
-                color: "#ffffff",
+                color: "#fff",
               }}
               icon={exp.icon}
             >
